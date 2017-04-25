@@ -162,7 +162,7 @@ SELECT * FROM movies;
 INSERT INTO people (
   name
 ) VALUES (
-  'Craig Morton' 
+  'Simon Douglas' 
 );
 
 SELECT * FROM people;
