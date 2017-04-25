@@ -172,10 +172,10 @@ DELETE FROM people WHERE name = 'Craig Morton';
 SELECT * FROM people;
 
 UPDATE people SET name = 'Jack Jarvis' 
-  WHERE id = 8;
+  WHERE name = 'Simon' AND id = 8;
 
 UPDATE people SET name = 'Victor McDade' 
-  WHERE id = 9;
+  WHERE name = 'Simon' WHERE id = 9;
 
 SELECT * FROM people;
 
@@ -191,8 +191,8 @@ INSERT INTO movies (
 
 SELECT * FROM movies;
 
-UPDATE movies SET show_time = '21:30' 
-  WHERE title = 'Guardians of the Galaxy';
+UPDATE movies SET show_time = '21:30'   
+  WHERE title = 'Guardians of the Galaxy'; -- or WHERE id = 11
 
 SELECT * FROM movies;
 
